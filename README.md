@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Utku</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate fullstack developer from Turkey</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=urthella&label=Profile%20views&color=0e75b6&style=flat" alt="urthella" /> </p>
 
-- 🔭 I’m currently working on **OKUT – A modern web-based platform focused on scalable frontend architecture and smooth user experience.**
+- 🔭 I’m currently working on **okutgitsin.com – A modern web-based platform focused on car trading.**
 
 - 🌱 I’m currently learning **AI, Data Science, Advanced React patterns**
 
@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles on [medium.com/@urthella1](medium.com/@urthella1)
 
-- 📫 How to reach me **utkudemirtas0@gmail.com / linkedin.com/in/utkudemirtas/**
+- 📫 How to reach me **utkudemirtas0@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
