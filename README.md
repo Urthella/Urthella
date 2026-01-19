@@ -9,9 +9,9 @@
 
 - 👯 I’m looking to collaborate on **Interactive Web Experiences**
 
-- 👨‍💻 All of my projects are available at [utkuwankenobi.tech](utkuwankenobi.tech)
+- 👨‍💻 All of my projects are available at [https://www.utkuwankenobi.tech](utkuwankenobi.tech)
 
-- 📝 I regularly write articles on [medium.com/@urthella1](medium.com/@urthella1)
+- 📝 I regularly write articles on [https://www.medium.com/@urthella1](medium.com/@urthella1)
 
 - 📫 How to reach me **utkudemirtas0@gmail.com**
 
