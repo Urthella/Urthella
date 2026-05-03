@@ -39,36 +39,58 @@ const utku = {
 <td width="50%" valign="top">
 
 #### [💸 costsight](https://github.com/Urthella/costsight)
-Cloud cost anomaly detection on AWS CUR data.
-**STL · Isolation Forest · Z-Score** detectors with severity-banded alerts and a Streamlit dashboard.
+**Cloud cost anomaly detection** on AWS CUR data.
+Three detectors run in parallel — **STL · Isolation Forest · Z-Score** — with severity-banded alerts and a Streamlit dashboard.
 
-`Python` · `scikit-learn` · `Streamlit` · `pandas`
+Benchmarked across **25 random seeds**: STL wins overall (F1 ≈ 0.76), Z-Score is a perfect point-spike detector, Isolation Forest sits in between.
+
+`Python` · `scikit-learn` · `Streamlit` · `pandas` · `pytest` · `CI`
 
 </td>
 <td width="50%" valign="top">
 
-#### [🖥️ MIPS16 Pipeline Simulator](https://github.com/Urthella/MIPS16-pipeline-simulator)
-5-stage 16-bit MIPS CPU simulator with hazard handling (forwarding, stalls, flushes), live web visualization, and a Verilog RTL twin.
+#### [📊 algortihm-test-sim](https://github.com/Urthella/algortihm-test-sim)
+**Sorting algorithm benchmarking suite** — Quick / Heap / Shell / Merge / Radix tested on Random, Partially Sorted, and Reverse Sorted data across sizes from 1K to 500K.
 
-`Java` · `React` · `TypeScript` · `Verilog`
+Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar / radar charts and CSV/JSON export.
+
+`Java 17` · `Spring Boot` · `Maven` · `React` · `Vite` · `JUnit`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### [🚗 used-car-platform](https://github.com/Urthella/used-car-platform)
-Used-car marketplace with JWT auth, role-based access (admin / seller / buyer), favorites, messaging and Cypress E2E.
+#### [🖥️ MIPS16 Pipeline Simulator](https://github.com/Urthella/MIPS16-pipeline-simulator)
+**5-stage 16-bit MIPS CPU** simulator with hazard handling — data forwarding (EX-EX, MEM-EX), load-use stall detection, branch flush — plus a Verilog RTL twin and live web visualization of registers, memory, and pipeline state.
 
-`Next.js` · `Express` · `MongoDB` · `Cypress`
+`Java 17` · `Javalin` · `React` · `TypeScript` · `Verilog` · `Gradle`
 
 </td>
 <td width="50%" valign="top">
 
-#### [🌐 portfolio-website](https://github.com/Urthella/portfolio-website)
-Personal portfolio with a 3D Spline robot scene, bilingual TR/EN content, EmailJS contact, Framer Motion animations.
+#### [🚗 used-car-platform](https://github.com/Urthella/used-car-platform)
+**Used-car marketplace** with JWT auth, role-based access (admin / seller / buyer), favorites, in-app messaging, image uploads, and a full Cypress E2E suite. Helmet, rate-limiting, and CORS hardening on the API.
 
-`Next.js 15` · `React 19` · `Spline` · `shadcn/ui`
+`Next.js 14` · `Express` · `MongoDB` · `Tailwind` · `Jest` · `Cypress`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [🌐 portfolio-website](https://github.com/Urthella/portfolio-website)
+Personal portfolio with a **3D Spline robot scene** that tracks the cursor across the page, **bilingual TR/EN** content, EmailJS contact form, and Framer Motion animations.
+
+`Next.js 15` · `React 19` · `Spline` · `shadcn/ui` · `Framer Motion`
+
+</td>
+<td width="50%" valign="top">
+
+#### [⏰ Reveil](https://github.com/Urthella/Reveil) <sup>WIP</sup>
+**AI-powered habit-tracking** mobile app. Three-tier architecture: React Native (Expo) client + NestJS API + FastAPI AI engine, all backed by PostgreSQL.
+
+`React Native` · `Expo` · `NestJS` · `FastAPI` · `PostgreSQL`
 
 </td>
 </tr>
