@@ -23,7 +23,7 @@
 const utku = {
   role:        "Fullstack Developer · CE Student",
   location:    "Türkiye",
-  currently:   ["okutgitsin.com — live vehicle-auction platform", "Reveil — AI habit-tracking app"],
+  currently:   ["okutgitsin.com, a live vehicle-auction platform", "Reveil, an AI habit-tracking app"],
   learning:    ["AI · Data Science", "Advanced React patterns"],
   collab:      ["Interactive web experiences", "Anything that ships ✨"],
   reach:       "utkudemirtas0@gmail.com",
@@ -32,9 +32,9 @@ const utku = {
 
 ---
 
-### 🏆 Flagship — [okutgitsin.com](https://okutgitsin.com)
+### 🏆 Flagship: [okutgitsin.com](https://okutgitsin.com)
 
-> **[🔨 okut](https://github.com/Urthella/okut) — a live-streamed group vehicle-auction platform.**
+> **[🔨 okut](https://github.com/Urthella/okut): a live-streamed group vehicle-auction platform.**
 > An admin opens a **live broadcast**, puts N cars up for auction, and users join with **tokens** and bid in real time.
 > A Redis + **Lua** atomic bid engine handles millisecond-level bidding, **Socket.IO** broadcasts every offer, and
 > **LiveKit** powers the camera/mic streams. Escrow deposit flow (HELD → REFUNDED/FORFEITED), IBAN verification,
@@ -52,7 +52,7 @@ const utku = {
 
 #### [💸 costsight](https://github.com/Urthella/costsight)
 **Cloud cost anomaly detection** on AWS CUR data.
-Three detectors run in parallel — **STL · Isolation Forest · Z-Score** — with severity-banded alerts and a Streamlit dashboard.
+Three detectors run in parallel (**STL · Isolation Forest · Z-Score**), with severity-banded alerts and a Streamlit dashboard.
 
 Benchmarked across **25 random seeds**: STL wins overall (F1 ≈ 0.76), Z-Score is a perfect point-spike detector, Isolation Forest sits in between.
 
@@ -62,7 +62,7 @@ Benchmarked across **25 random seeds**: STL wins overall (F1 ≈ 0.76), Z-Score 
 <td width="50%" valign="top">
 
 #### [📊 algortihm-test-sim](https://github.com/Urthella/algortihm-test-sim)
-**Sorting algorithm benchmarking suite** — Quick / Heap / Shell / Merge / Radix tested on Random, Partially Sorted, and Reverse Sorted data across sizes from 1K to 500K.
+**Sorting algorithm benchmarking suite:** Quick / Heap / Shell / Merge / Radix tested on Random, Partially Sorted, and Reverse Sorted data across sizes from 1K to 500K.
 
 Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar / radar charts and CSV/JSON export.
 
@@ -74,7 +74,7 @@ Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar
 <td width="50%" valign="top">
 
 #### [🖥️ MIPS16 Pipeline Simulator](https://github.com/Urthella/MIPS16-pipeline-simulator)
-**5-stage 16-bit MIPS CPU** simulator with hazard handling — data forwarding (EX-EX, MEM-EX), load-use stall detection, branch flush — plus a Verilog RTL twin and live web visualization of registers, memory, and pipeline state.
+**5-stage 16-bit MIPS CPU** simulator with hazard handling (data forwarding EX-EX and MEM-EX, load-use stall detection, branch flush), plus a Verilog RTL twin and live web visualization of registers, memory, and pipeline state.
 
 `Java 17` · `Javalin` · `React` · `TypeScript` · `Verilog` · `Gradle`
 
@@ -112,14 +112,14 @@ Personal portfolio with a **3D Spline robot scene** that tracks the cursor acros
 
 ### 🤝 Open-source collaborations
 
-Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/thefcan)'s org — my role is mainly **test suites and CI pipelines** (across Go, Python, Rust, C++ and the web stack), plus fixes along the way.
+Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/thefcan)'s org. My role is mainly **test suites and CI pipelines** (across Go, Python, Rust, C++ and the web stack), plus fixes along the way.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 #### [🧠 ragdesk](https://github.com/thefcan/ragdesk)
-**Multi-tenant, AI-powered knowledge SaaS.** Teams upload documents and chat with an assistant that answers **only from those documents, with citations** (RAG). Go core for tenancy/billing/metering, a FastAPI LLM + embedding pipeline, a Next.js front-end, Postgres + pgvector, and a provider-agnostic model layer — with a live demo and CI/CD/CodeQL.
+**Multi-tenant, AI-powered knowledge SaaS.** Teams upload documents and chat with an assistant that answers **only from those documents, with citations** (RAG). Go core for tenancy/billing/metering, a FastAPI LLM + embedding pipeline, a Next.js front-end, Postgres + pgvector, and a provider-agnostic model layer, with a live demo and CI/CD/CodeQL.
 
 `Go` · `FastAPI` · `Next.js` · `Postgres + pgvector` · `Ollama/Gemini`
 
@@ -129,7 +129,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td width="50%" valign="top">
 
 #### [⛓️ gochain](https://github.com/thefcan/gochain)
-**A blockchain written from scratch in Go** — proof of work, a signed **UTXO** transaction model, ECDSA wallets, BoltDB persistence, and TCP peer-to-peer sync. Built to a production standard: property-based and fuzz tests, a security-reviewed network layer, and static analysis.
+**A blockchain written from scratch in Go:** proof of work, a signed **UTXO** transaction model, ECDSA wallets, BoltDB persistence, and TCP peer-to-peer sync. Built to a production standard: property-based and fuzz tests, a security-reviewed network layer, and static analysis.
 
 `Go` · `Proof of Work` · `ECDSA` · `BoltDB` · `P2P`
 
@@ -141,7 +141,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td width="50%" valign="top">
 
 #### [🌀 k8s-resilience-harness](https://github.com/thefcan/k8s-resilience-harness)
-**Kubernetes chaos / resilience harness in Go.** Inject controlled faults into a system on Kubernetes, check a **steady-state hypothesis**, measure recovery, and report a deterministic pass/fail — with an ML-based anomaly layer over accumulated runs.
+**Kubernetes chaos / resilience harness in Go.** Inject controlled faults into a system on Kubernetes, check a **steady-state hypothesis**, measure recovery, and report a deterministic pass/fail, with an ML-based anomaly layer over accumulated runs.
 
 `Go` · `Kubernetes` · `Chaos engineering` · `kind`
 
@@ -151,7 +151,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td width="50%" valign="top">
 
 #### [🔥 femheat](https://github.com/thefcan/femheat)
-**From-scratch 2D finite-element solver** for steady-state heat conduction in modern C++17. Hand-written Galerkin assembly, a Jacobi-preconditioned CG solve (Eigen), and HDF5/XDMF output for ParaView — validated to **second-order accuracy** by the Method of Manufactured Solutions.
+**From-scratch 2D finite-element solver** for steady-state heat conduction in modern C++17. Hand-written Galerkin assembly, a Jacobi-preconditioned CG solve (Eigen), and HDF5/XDMF output for ParaView, validated to **second-order accuracy** by the Method of Manufactured Solutions.
 
 `C++17` · `Eigen` · `CMake` · `GoogleTest` · `FEM`
 
@@ -163,7 +163,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td width="50%" valign="top">
 
 #### [📦 gocontainer](https://github.com/thefcan/gocontainer)
-**A container runtime in ~80 lines of Go** — a learning re-implementation of the core of `docker run`. Isolates a process with Linux **namespaces** (UTS, PID, mount), chroots into a root filesystem, and mounts a private `/proc`. Standard library only.
+**A container runtime in ~80 lines of Go:** a learning re-implementation of the core of `docker run`. Isolates a process with Linux **namespaces** (UTS, PID, mount), chroots into a root filesystem, and mounts a private `/proc`. Standard library only.
 
 `Go` · `Linux namespaces` · `chroot`
 
@@ -173,7 +173,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td width="50%" valign="top">
 
 #### [🛍️ dolap-sale-prediction](https://github.com/thefcan/dolap-sale-prediction)
-**End-to-end ML** predicting whether a second-hand fashion listing sells **within 7 days**. Covers scraping, time-aware labeling, feature engineering, model comparison, ablation analysis, and a live demo — XGBoost on top.
+**End-to-end ML** predicting whether a second-hand fashion listing sells **within 7 days**. Covers scraping, time-aware labeling, feature engineering, model comparison, ablation analysis, and a live demo, with XGBoost on top.
 
 `Python` · `XGBoost` · `scikit-learn` · `pandas`
 
