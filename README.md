@@ -23,12 +23,24 @@
 const utku = {
   role:        "Fullstack Developer · CE Student",
   location:    "Türkiye",
-  currently:   ["Reveil — AI habit-tracking app", "okutgitsin.com — used-car platform"],
+  currently:   ["okutgitsin.com — live vehicle-auction platform", "Reveil — AI habit-tracking app"],
   learning:    ["AI · Data Science", "Advanced React patterns"],
   collab:      ["Interactive web experiences", "Anything that ships ✨"],
   reach:       "utkudemirtas0@gmail.com",
 };
 ```
+
+---
+
+### 🏆 Flagship — [okutgitsin.com](https://okutgitsin.com)
+
+> **[🔨 okut](https://github.com/Urthella/okut) — a live-streamed group vehicle-auction platform.**
+> An admin opens a **live broadcast**, puts N cars up for auction, and users join with **tokens** and bid in real time.
+> A Redis + **Lua** atomic bid engine handles millisecond-level bidding, **Socket.IO** broadcasts every offer, and
+> **LiveKit** powers the camera/mic streams. Escrow deposit flow (HELD → REFUNDED/FORFEITED), IBAN verification,
+> expert reports, a dealer dashboard, admin analytics, and Resend-powered transactional email.
+
+`NestJS 11` · `Next.js 16` · `React 19` · `PostgreSQL + Prisma` · `Redis + Lua` · `Socket.IO` · `LiveKit` · `Turborepo` · `Deployed on Vercel`
 
 ---
 
@@ -79,22 +91,99 @@ Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar
 <tr>
 <td width="50%" valign="top">
 
-#### [🌐 portfolio-website](https://github.com/Urthella/portfolio-website)
-Personal portfolio with a **3D Spline robot scene** that tracks the cursor across the page, **bilingual TR/EN** content, EmailJS contact form, and Framer Motion animations.
-
-`Next.js 15` · `React 19` · `Spline` · `shadcn/ui` · `Framer Motion`
-
-</td>
-<td width="50%" valign="top">
-
 #### [⏰ Reveil](https://github.com/Urthella/Reveil) <sup>WIP</sup>
 **AI-powered habit-tracking** mobile app. Three-tier architecture: React Native (Expo) client + NestJS API + FastAPI AI engine, all backed by PostgreSQL.
 
 `React Native` · `Expo` · `NestJS` · `FastAPI` · `PostgreSQL`
 
 </td>
+<td width="50%" valign="top">
+
+#### [🌐 portfolio-website](https://github.com/Urthella/portfolio-website)
+Personal portfolio with a **3D Spline robot scene** that tracks the cursor across the page, **bilingual TR/EN** content, EmailJS contact form, and Framer Motion animations.
+
+`Next.js 15` · `React 19` · `Spline` · `shadcn/ui` · `Framer Motion`
+
+</td>
 </tr>
 </table>
+
+---
+
+### 🤝 Open-source collaborations
+
+Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/thefcan)'s org — my role is mainly **test suites and CI pipelines** (across Go, Python, Rust, C++ and the web stack), plus fixes along the way.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [🧠 ragdesk](https://github.com/thefcan/ragdesk)
+**Multi-tenant, AI-powered knowledge SaaS.** Teams upload documents and chat with an assistant that answers **only from those documents, with citations** (RAG). Go core for tenancy/billing/metering, a FastAPI LLM + embedding pipeline, a Next.js front-end, Postgres + pgvector, and a provider-agnostic model layer — with a live demo and CI/CD/CodeQL.
+
+`Go` · `FastAPI` · `Next.js` · `Postgres + pgvector` · `Ollama/Gemini`
+
+<sub>My contribution: the web **Vitest** suite + CI step.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [⛓️ gochain](https://github.com/thefcan/gochain)
+**A blockchain written from scratch in Go** — proof of work, a signed **UTXO** transaction model, ECDSA wallets, BoltDB persistence, and TCP peer-to-peer sync. Built to a production standard: property-based and fuzz tests, a security-reviewed network layer, and static analysis.
+
+`Go` · `Proof of Work` · `ECDSA` · `BoltDB` · `P2P`
+
+<sub>My contribution: the `cmd` CLI test suite.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [🌀 k8s-resilience-harness](https://github.com/thefcan/k8s-resilience-harness)
+**Kubernetes chaos / resilience harness in Go.** Inject controlled faults into a system on Kubernetes, check a **steady-state hypothesis**, measure recovery, and report a deterministic pass/fail — with an ML-based anomaly layer over accumulated runs.
+
+`Go` · `Kubernetes` · `Chaos engineering` · `kind`
+
+<sub>My contribution: buildinfo + k8s-client tests.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [🔥 femheat](https://github.com/thefcan/femheat)
+**From-scratch 2D finite-element solver** for steady-state heat conduction in modern C++17. Hand-written Galerkin assembly, a Jacobi-preconditioned CG solve (Eigen), and HDF5/XDMF output for ParaView — validated to **second-order accuracy** by the Method of Manufactured Solutions.
+
+`C++17` · `Eigen` · `CMake` · `GoogleTest` · `FEM`
+
+<sub>My contribution: Point/Material value-type tests.</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [📦 gocontainer](https://github.com/thefcan/gocontainer)
+**A container runtime in ~80 lines of Go** — a learning re-implementation of the core of `docker run`. Isolates a process with Linux **namespaces** (UTS, PID, mount), chroots into a root filesystem, and mounts a private `/proc`. Standard library only.
+
+`Go` · `Linux namespaces` · `chroot`
+
+<sub>My contribution: config helpers + tests + CI go-test.</sub>
+
+</td>
+<td width="50%" valign="top">
+
+#### [🛍️ dolap-sale-prediction](https://github.com/thefcan/dolap-sale-prediction)
+**End-to-end ML** predicting whether a second-hand fashion listing sells **within 7 days**. Covers scraping, time-aware labeling, feature engineering, model comparison, ablation analysis, and a live demo — XGBoost on top.
+
+`Python` · `XGBoost` · `scikit-learn` · `pandas`
+
+<sub>My contribution: pytest suite + first CI workflow.</sub>
+
+</td>
+</tr>
+</table>
+
+<sub>Also contributing to <a href="https://github.com/thefcan/rust-url-shortener">rust-url-shortener</a> (Rust · Axum) and <a href="https://github.com/thefcan/unity-match3">unity-match3</a> (Unity · C#).</sub>
 
 ---
 
@@ -121,6 +210,7 @@ Personal portfolio with a **3D Spline robot scene** that tracks the cursor acros
 <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
 <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 </td>
 </tr>
@@ -130,15 +220,17 @@ Personal portfolio with a **3D Spline robot scene** that tracks the cursor acros
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
 <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" />
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </td>
 </tr>
 <tr>
 <td valign="top"><strong>Tools</strong></td>
 <td>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
