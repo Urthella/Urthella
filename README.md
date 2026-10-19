@@ -158,9 +158,9 @@ Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar
 <td width="50%" valign="top">
 
 #### [🌐 portfolio-website](https://github.com/Urthella/portfolio-website)
-Personal portfolio with a **3D Spline robot scene** that tracks the cursor across the page, **bilingual TR/EN** content, EmailJS contact form, and Framer Motion animations.
+Personal portfolio at [utkudemirtas.tech](https://www.utkudemirtas.tech) with a **WebGL fluid background**, **bilingual TR/EN** content, an interactive terminal and command palette, a live theme lab, an auto lite mode for weaker machines, and an EmailJS contact form.
 
-`Next.js 15` · `React 19` · `Spline` · `shadcn/ui` · `Framer Motion`
+`Next.js 15` · `React 19` · `WebGL` · `Tailwind` · `Framer Motion` · `GSAP`
 
 </td>
 </tr>
