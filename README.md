@@ -1,11 +1,11 @@
 <div align="center">
 
-<a href="https://www.utkuwankenobi.tech">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Utku+%F0%9F%91%8B;Fullstack+Developer+%C2%B7+CE+Student;Building+with+React%2C+Spring%2C+and+a+bit+of+AI" alt="Typing SVG" />
+<a href="https://www.utkudemirtas.tech">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Utku+%F0%9F%91%8B;Fullstack+Dev+%C2%B7+Backend+%26+DevOps;Real-time+%C2%B7+Distributed+%C2%B7+CI%2FCD" alt="Typing SVG" />
 </a>
 
 <p>
-  <a href="https://www.utkuwankenobi.tech"><img src="https://img.shields.io/badge/Portfolio-utkuwankenobi.tech-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://www.utkudemirtas.tech"><img src="https://img.shields.io/badge/Portfolio-utkudemirtas.tech-58A6FF?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://linkedin.com/in/utkudemirtas"><img src="https://img.shields.io/badge/LinkedIn-Utku_Demirta%C5%9F-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://medium.com/@urthella1"><img src="https://img.shields.io/badge/Medium-@urthella1-12100E?style=for-the-badge&logo=medium&logoColor=white" /></a>
   <a href="mailto:utkudemirtas0@gmail.com"><img src="https://img.shields.io/badge/Email-utkudemirtas0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -21,10 +21,11 @@
 
 ```ts
 const utku = {
-  role:        "Fullstack Developer · CE Student",
-  location:    "Türkiye",
+  role:        "Fullstack Developer · Backend & DevOps · CE Student",
+  location:    "Konya, Türkiye",
   currently:   ["okutgitsin.com, a live vehicle-auction platform", "Reveil, an AI habit-tracking app"],
-  learning:    ["AI · Data Science", "Advanced React patterns"],
+  shipped:     ["A distributed-systems series: CRDT sync, rate limiting, sagas, RAG, job queues"],
+  learning:    ["Distributed systems", "AI · Data Science"],
   collab:      ["Interactive web experiences", "Anything that ships ✨"],
   reach:       "utkudemirtas0@gmail.com",
 };
@@ -34,13 +35,70 @@ const utku = {
 
 ### 🏆 Flagship: [okutgitsin.com](https://okutgitsin.com)
 
-> **[🔨 okut](https://github.com/Urthella/okut): a live-streamed group vehicle-auction platform.**
+> **🔨 okut: a live-streamed group vehicle-auction platform.**
 > An admin opens a **live broadcast**, puts N cars up for auction, and users join with **tokens** and bid in real time.
 > A Redis + **Lua** atomic bid engine handles millisecond-level bidding, **Socket.IO** broadcasts every offer, and
 > **LiveKit** powers the camera/mic streams. Escrow deposit flow (HELD → REFUNDED/FORFEITED), IBAN verification,
 > expert reports, a dealer dashboard, admin analytics, and Resend-powered transactional email.
 
 `NestJS 11` · `Next.js 16` · `React 19` · `PostgreSQL + Prisma` · `Redis + Lua` · `Socket.IO` · `LiveKit` · `Turborepo` · `Deployed on Vercel`
+
+<sub>Source is private; the platform is live at <a href="https://okutgitsin.com">okutgitsin.com</a>.</sub>
+
+---
+
+### 🧩 Backend & distributed-systems series
+
+Five from-scratch builds around the problems that show up in real backends: concurrent state, distributed limits, partial failure, retrieval and job scheduling. Each one ships with tests and a runnable demo.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [✍️ realtime-collab-editor](https://github.com/Urthella/realtime-collab-editor)
+**Google-Docs-style collaborative editor.** Yjs CRDTs synced over a custom y-websocket protocol server, live cursors and presence, JWT auth with viewer/editor sharing, and **debounced snapshot persistence** with version history instead of a write per keystroke.
+
+`TypeScript` · `React` · `Tiptap` · `Yjs` · `WebSocket` · `Express` · `SQLite / Postgres`
+
+</td>
+<td width="50%" valign="top">
+
+#### [🚦 distributed-rate-limiter](https://github.com/Urthella/distributed-rate-limiter)
+**API gateway with three rate-limiting algorithms** (fixed window, token bucket, sliding window log), each with an in-memory and a **Redis + Lua** store so limits hold across replicas. Uses Redis server time to sidestep clock drift, with Prometheus metrics, a Grafana dashboard and a k6 load test.
+
+`TypeScript` · `Node.js` · `Redis + Lua` · `Prometheus` · `Grafana` · `Docker`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [🔎 rag-codebase-qa](https://github.com/Urthella/rag-codebase-qa)
+**Ask questions about a codebase, get answers with `file:line` citations.** tree-sitter AST chunking by function and class, hybrid **BM25 + vector** retrieval fused with RRF, strict grounding prompts, and an eval harness where hybrid retrieval reaches **94% hit@3**.
+
+`Python` · `FastAPI` · `tree-sitter` · `pgvector` · `Claude / OpenAI`
+
+</td>
+<td width="50%" valign="top">
+
+#### [📦 event-driven-order-system](https://github.com/Urthella/event-driven-order-system)
+**Five microservices coordinating an order saga.** Failed steps trigger **compensating transactions** (refund, stock release), a transactional inbox keeps consumers idempotent under at-least-once delivery, and W3C trace context follows each order across every service.
+
+`TypeScript` · `Node.js` · `RabbitMQ` · `OpenTelemetry` · `Jaeger` · `Docker`
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### [⚙️ job-queue-orchestrator](https://github.com/Urthella/job-queue-orchestrator)
+**A mini Celery built from scratch.** Race-safe job claiming (SQLite `BEGIN IMMEDIATE` with an atomic `UPDATE ... RETURNING`, Postgres `FOR UPDATE SKIP LOCKED`), exponential backoff with a dead-letter queue, heartbeats plus a reaper that recovers jobs from crashed workers, and a **DAG workflow engine** with a live dashboard.
+
+`Python` · `asyncio` · `FastAPI` · `SQLite` · `PostgreSQL`
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -222,6 +280,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
 <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
 <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+<img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 </td>
@@ -231,6 +290,9 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <td>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+<img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" />
 <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" />
@@ -253,12 +315,6 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 
 <a href="https://github.com/Urthella">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Urthella&theme=tokyonight&hide_border=true" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/Urthella">
-  <img src="https://github-profile-trophy.vercel.app/?username=Urthella&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
 </a>
 
 </div>
