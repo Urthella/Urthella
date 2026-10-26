@@ -23,7 +23,7 @@
 const utku = {
   role:        "Fullstack Developer · Backend & DevOps · CE Student",
   location:    "Konya, Türkiye",
-  currently:   ["okutgitsin.com, a live vehicle-auction platform", "Reveil, an AI habit-tracking app"],
+  currently:   ["okutgitsin.com, a live-streamed vehicle-auction platform (launching soon)", "penpick.com.tr, a marketplace for pen collectors (launching soon)", "Reveil, an AI habit-tracking app"],
   shipped:     ["A distributed-systems series: CRDT sync, rate limiting, sagas, RAG, job queues"],
   learning:    ["Distributed systems", "AI · Data Science"],
   collab:      ["Interactive web experiences", "Anything that ships ✨"],
@@ -43,7 +43,21 @@ const utku = {
 
 `NestJS 11` · `Next.js 16` · `React 19` · `PostgreSQL + Prisma` · `Redis + Lua` · `Socket.IO` · `LiveKit` · `Turborepo` · `Deployed on Vercel`
 
-<sub>Source is private; the platform is live at <a href="https://okutgitsin.com">okutgitsin.com</a>.</sub>
+<sub>Source is private; launching soon, the waitlist is open at <a href="https://okutgitsin.com">okutgitsin.com</a>.</sub>
+
+---
+
+### 🖋️ Flagship: [penpick.com.tr](https://penpick.com.tr)
+
+> **🖋️ Penpick: a marketplace for pen collectors.**
+> Buy and sell pens safely: the buyer's payment is held by Penpick until the pen is delivered. Fixed-price listings and
+> **timed auctions** with scheduled endings, a launch perk that waives the first sale's commission for the first 100 members
+> (granted under **Postgres advisory locks** so exactly 100 get it), username + password auth with e-mail/SMS verification,
+> an admin panel, and a **React Native (Expo)** mobile app on the same API.
+
+`Next.js 16` · `React 19` · `TypeScript` · `Prisma 7` · `Neon Postgres` · `Tailwind v4` · `Expo` · `Resend` · `Deployed on Vercel`
+
+<sub>Source is private; launching soon, the waitlist is open at <a href="https://penpick.com.tr">penpick.com.tr</a>.</sub>
 
 ---
 
@@ -119,7 +133,7 @@ Benchmarked across **25 random seeds**: STL wins overall (F1 ≈ 0.76), Z-Score 
 </td>
 <td width="50%" valign="top">
 
-#### [📊 algortihm-test-sim](https://github.com/Urthella/algortihm-test-sim)
+#### [📊 algorithm-test-sim](https://github.com/Urthella/algorithm-test-sim)
 **Sorting algorithm benchmarking suite:** Quick / Heap / Shell / Merge / Radix tested on Random, Partially Sorted, and Reverse Sorted data across sizes from 1K to 500K.
 
 Spring Boot REST API + React/Vite UI for interactive comparison, with line / bar / radar charts and CSV/JSON export.
@@ -307,7 +321,6 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <div align="center">
 
 <a href="https://github.com/Urthella">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=Urthella&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" />
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Urthella&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 </a>
 
