@@ -19,7 +19,7 @@
 
 ```ts
 const utku = {
-  role:        "Fullstack Developer · Backend & DevOps · CE Student",
+  role:        "Fullstack Developer · Backend & DevOps",
   location:    "Konya, Türkiye",
   currently:   ["okutgitsin.com, a live-streamed vehicle-auction platform (launching soon)", "penpick.com.tr, a marketplace for pen collectors (launching soon)", "Reveil, an AI habit-tracking app"],
   shipped:     ["A distributed-systems series: CRDT sync, rate limiting, sagas, RAG, job queues"],
