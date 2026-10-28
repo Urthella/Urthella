@@ -114,6 +114,17 @@ Five from-scratch builds around the problems that show up in real backends: conc
 
 ---
 
+### 🧪 Latest builds
+
+Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI and a reproducible Nix dev shell.
+
+| Repo | What it does | Stack |
+|---|---|---|
+| [nix-devshells](https://github.com/Urthella/nix-devshells) | Flake templates for Rust, Go, Node/TS, Python and Solidity dev shells, smoke-tested in CI | `Nix` |
+| [dotfiles-nix](https://github.com/Urthella/dotfiles-nix) | My whole shell and editor setup as a home-manager flake for NixOS-WSL | `Nix` · `home-manager` |
+
+---
+
 ### 🚀 Featured projects
 
 <table>
@@ -280,6 +291,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" />
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
 </td>
 </tr>
@@ -292,6 +304,7 @@ Repos I contribute to as a collaborator on [**@thefcan**](https://github.com/the
 <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
 <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Nix-5277C3?style=flat-square&logo=nixos&logoColor=white" />
 </td>
 </tr>
 <tr>
