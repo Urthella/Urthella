@@ -120,6 +120,9 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI and
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [agent-memory-sqlite](https://github.com/Urthella/agent-memory-sqlite) | Persistent memory for coding agents as an MCP server: SQLite FTS5, BM25 + recency ranking, zero native deps | `TypeScript` · `MCP` · `SQLite` |
+| [context-compressor](https://github.com/Urthella/context-compressor) | `ctxc`: shrinks test and build logs to an LLM token budget, 94% smaller on a real `cargo test` run with the failure intact | `Rust` |
+| [skill-lint](https://github.com/Urthella/skill-lint) | Linter and GitHub Action for Agent Skills (`SKILL.md`): spec rules, broken links, nested references | `TypeScript` · `GitHub Actions` |
 | [nix-devshells](https://github.com/Urthella/nix-devshells) | Flake templates for Rust, Go, Node/TS, Python and Solidity dev shells, smoke-tested in CI | `Nix` |
 | [dotfiles-nix](https://github.com/Urthella/dotfiles-nix) | My whole shell and editor setup as a home-manager flake for NixOS-WSL | `Nix` · `home-manager` |
 
