@@ -120,6 +120,9 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI and
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [gcra-lite](https://github.com/Urthella/gcra-lite) | Dependency-free GCRA rate limiter: one atomic per limiter, plus a keyed limiter for per-user quotas | `Rust` |
+| [backend-agent-skills](https://github.com/Urthella/backend-agent-skills) | Agent Skills for Postgres migration review, k6 load test plans and incident response, linted in CI with skill-lint | `Agent Skills` · `Postgres` · `k6` |
+| [nixos-wsl-dev](https://github.com/Urthella/nixos-wsl-dev) | My Windows dev machine as a NixOS-WSL flake: the whole Linux side rebuilds from the repo | `Nix` · `NixOS` |
 | [agent-memory-sqlite](https://github.com/Urthella/agent-memory-sqlite) | Persistent memory for coding agents as an MCP server: SQLite FTS5, BM25 + recency ranking, zero native deps | `TypeScript` · `MCP` · `SQLite` |
 | [context-compressor](https://github.com/Urthella/context-compressor) | `ctxc`: shrinks test and build logs to an LLM token budget, 94% smaller on a real `cargo test` run with the failure intact | `Rust` |
 | [skill-lint](https://github.com/Urthella/skill-lint) | Linter and GitHub Action for Agent Skills (`SKILL.md`): spec rules, broken links, nested references | `TypeScript` · `GitHub Actions` |
