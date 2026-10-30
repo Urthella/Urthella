@@ -116,10 +116,11 @@ Five from-scratch builds around the problems that show up in real backends: conc
 
 ### 🧪 Latest builds
 
-Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI and a reproducible Nix dev shell.
+Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, and all but the Nix configs ship a reproducible Nix dev shell.
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [baited](https://github.com/Urthella/baited) | Harmless traps that test whether your coding agent hands over your `.env`: a fake secret left in 34 of 60 runs with the network open, and the agent said so in 8 | `TypeScript` · `Claude Code` · `Codex CLI` |
 | [gcra-lite](https://github.com/Urthella/gcra-lite) | Dependency-free GCRA rate limiter: one atomic per limiter, plus a keyed limiter for per-user quotas | `Rust` |
 | [backend-agent-skills](https://github.com/Urthella/backend-agent-skills) | Agent Skills for Postgres migration review, k6 load test plans and incident response, linted in CI with skill-lint | `Agent Skills` · `Postgres` · `k6` |
 | [nixos-wsl-dev](https://github.com/Urthella/nixos-wsl-dev) | My Windows dev machine as a NixOS-WSL flake: the whole Linux side rebuilds from the repo | `Nix` · `NixOS` |
