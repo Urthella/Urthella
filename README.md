@@ -120,6 +120,9 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [mcp-postgres-guard](https://github.com/Urthella/mcp-postgres-guard) | MCP server that lets AI agents query Postgres without being able to break it: read-only, one statement at a time, time and row limits | `Go` · `MCP` · `Postgres` |
+| [mcp-tcmb-kur](https://github.com/Urthella/mcp-tcmb-kur) | MCP server for the Central Bank of Türkiye's daily exchange rates, with history and no API key | `Go` · `MCP` |
+| [llm-gateway-go](https://github.com/Urthella/llm-gateway-go) | One OpenAI-compatible endpoint for all your LLM providers: fallback, per-client keys and limits, response cache, Prometheus metrics | `Go` · `LLM` |
 | [baited](https://github.com/Urthella/baited) | Harmless traps that test whether your coding agent hands over your `.env`, with a fake secret and a local listener. Includes a small pilot on Claude Code and Codex CLI | `TypeScript` · `Claude Code` · `Codex CLI` |
 | [gcra-lite](https://github.com/Urthella/gcra-lite) | Dependency-free GCRA rate limiter: one atomic per limiter, plus a keyed limiter for per-user quotas | `Rust` |
 | [backend-agent-skills](https://github.com/Urthella/backend-agent-skills) | Agent Skills for Postgres migration review, k6 load test plans and incident response, linted in CI with skill-lint | `Agent Skills` · `Postgres` · `k6` |
