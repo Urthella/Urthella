@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [outbox-relay](https://github.com/Urthella/outbox-relay) | Publishes committed rows of a Postgres outbox table to NATS JetStream from a logical replication slot, with crash-safety tests and slot lag metrics | `Go` · `Postgres` · `NATS` |
 | [go-saga](https://github.com/Urthella/go-saga) | Sagas for Go: every step has a compensating action, and a durable log lets a saga resume after a crash | `Go` |
 | [agent-file-census](https://github.com/Urthella/agent-file-census) | A scan of the 10,000 most-starred repos for hidden text in agent instruction files, with the method, data and limits | `TypeScript` · `GitHub API` |
 | [erc4626-vault-kit](https://github.com/Urthella/erc4626-vault-kit) | ERC-4626 vault with an idle buffer and a pluggable strategy, tested with a16z's conformance suite and invariants. Unaudited, testnets only | `Solidity` · `Foundry` |
