@@ -120,6 +120,8 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [go-saga](https://github.com/Urthella/go-saga) | Sagas for Go: every step has a compensating action, and a durable log lets a saga resume after a crash | `Go` |
+| [agent-file-census](https://github.com/Urthella/agent-file-census) | A scan of the 10,000 most-starred repos for hidden text in agent instruction files, with the method, data and limits | `TypeScript` · `GitHub API` |
 | [erc4626-vault-kit](https://github.com/Urthella/erc4626-vault-kit) | ERC-4626 vault with an idle buffer and a pluggable strategy, tested with a16z's conformance suite and invariants. Unaudited, testnets only | `Solidity` · `Foundry` |
 | [chainpulse](https://github.com/Urthella/chainpulse) | Health monitoring for blockchain RPC endpoints across 15 chains: uptime, head height, lag behind peers and stalls, with Prometheus metrics and alert rules | `Go` · `Prometheus` |
 | [anchor-escrow](https://github.com/Urthella/anchor-escrow) | Token escrow on Solana with optional expiry and Token-2022 support, tested in LiteSVM. Unaudited and not deployed | `Rust` · `Solana` · `Anchor` |
