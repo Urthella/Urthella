@@ -120,6 +120,9 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [webhook-relay](https://github.com/Urthella/webhook-relay) | Signed webhook delivery on Postgres with retries, dead letters, redrive and SSRF protection checked when the connection opens | `Go` · `Postgres` |
+| [raft-visualizer](https://github.com/Urthella/raft-visualizer) | Raft in the browser: crash nodes, split the network and watch five safety properties checked live ([try it](https://urthella.github.io/raft-visualizer/)) | `TypeScript` · `Raft` |
+| [tiny-kv-raft](https://github.com/Urthella/tiny-kv-raft) | A replicated key-value store on openraft, run under partitions, lost messages and crashes, with a linearizability checker | `Rust` · `Raft` |
 | [outbox-relay](https://github.com/Urthella/outbox-relay) | Publishes committed rows of a Postgres outbox table to NATS JetStream from a logical replication slot, with crash-safety tests and slot lag metrics | `Go` · `Postgres` · `NATS` |
 | [go-saga](https://github.com/Urthella/go-saga) | Sagas for Go: every step has a compensating action, and a durable log lets a saga resume after a crash | `Go` |
 | [agent-file-census](https://github.com/Urthella/agent-file-census) | A scan of the 10,000 most-starred repos for hidden text in agent instruction files, with the method, data and limits | `TypeScript` · `GitHub API` |
