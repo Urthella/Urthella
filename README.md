@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [idempotency-kit](https://github.com/Urthella/idempotency-kit) | Idempotency-Key middleware for Express, Fastify and Hono, following the IETF draft, with memory and Redis stores | `TypeScript` · `Redis` |
 | [omnichain-portfolio](https://github.com/Urthella/omnichain-portfolio) | Native balances across 12 blockchains from public endpoints, with every address checked against its chain's format and checksum first | `TypeScript` · `Multichain` |
 | [lsm-lite](https://github.com/Urthella/lsm-lite) | A small LSM-tree key-value store, tested by crashing it at every filesystem operation on a simulated disk | `Rust` · `Storage` |
 | [webhook-relay](https://github.com/Urthella/webhook-relay) | Signed webhook delivery on Postgres with retries, dead letters, redrive and SSRF protection checked when the connection opens | `Go` · `Postgres` |
