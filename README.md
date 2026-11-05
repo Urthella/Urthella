@@ -120,6 +120,8 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [omnichain-portfolio](https://github.com/Urthella/omnichain-portfolio) | Native balances across 12 blockchains from public endpoints, with every address checked against its chain's format and checksum first | `TypeScript` · `Multichain` |
+| [lsm-lite](https://github.com/Urthella/lsm-lite) | A small LSM-tree key-value store, tested by crashing it at every filesystem operation on a simulated disk | `Rust` · `Storage` |
 | [webhook-relay](https://github.com/Urthella/webhook-relay) | Signed webhook delivery on Postgres with retries, dead letters, redrive and SSRF protection checked when the connection opens | `Go` · `Postgres` |
 | [raft-visualizer](https://github.com/Urthella/raft-visualizer) | Raft in the browser: crash nodes, split the network and watch five safety properties checked live ([try it](https://urthella.github.io/raft-visualizer/)) | `TypeScript` · `Raft` |
 | [tiny-kv-raft](https://github.com/Urthella/tiny-kv-raft) | A replicated key-value store on openraft, run under partitions, lost messages and crashes, with a linearizability checker | `Rust` · `Raft` |
