@@ -120,6 +120,8 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [agent-trace-viewer](https://github.com/Urthella/agent-trace-viewer) | A local viewer for AI agent traces in OpenTelemetry's GenAI conventions: model and tool calls on a timeline, tokens counted once | `TypeScript` · `OpenTelemetry` |
+| [bloom-cuckoo-rs](https://github.com/Urthella/bloom-cuckoo-rs) | Bloom, cuckoo and xor filters from scratch, with false positive rates measured against the theory | `Rust` · `Data structures` |
 | [idempotency-kit](https://github.com/Urthella/idempotency-kit) | Idempotency-Key middleware for Express, Fastify and Hono, following the IETF draft, with memory and Redis stores | `TypeScript` · `Redis` |
 | [omnichain-portfolio](https://github.com/Urthella/omnichain-portfolio) | Native balances across 12 blockchains from public endpoints, with every address checked against its chain's format and checksum first | `TypeScript` · `Multichain` |
 | [lsm-lite](https://github.com/Urthella/lsm-lite) | A small LSM-tree key-value store, tested by crashing it at every filesystem operation on a simulated disk | `Rust` · `Storage` |
