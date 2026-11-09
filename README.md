@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [pq-hybrid-kex](https://github.com/Urthella/pq-hybrid-kex) | X-Wing, the key exchange that pairs post-quantum ML-KEM-768 with X25519, written step by step and checked against the draft's test vectors | `Rust` · `Cryptography` |
 | [chaos-proxy](https://github.com/Urthella/chaos-proxy) | A TCP proxy that adds latency, jitter, bandwidth limits, dropped and cut connections, and partitions, changeable while it runs | `Rust` · `Testing` |
 | [rs-loadgen](https://github.com/Urthella/rs-loadgen) | An HTTP load generator that measures latency from when each request was due, so a stalled server can't hide its stall | `Rust` · `Load testing` |
 | [agent-trace-viewer](https://github.com/Urthella/agent-trace-viewer) | A local viewer for AI agent traces in OpenTelemetry's GenAI conventions: model and tool calls on a timeline, tokens counted once | `TypeScript` · `OpenTelemetry` |
