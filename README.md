@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [arb-gas-exporter](https://github.com/Urthella/arb-gas-exporter) | A Prometheus exporter for Arbitrum gas prices, read from the chain's own precompiles: L2 base fee, parent-chain data prices, pricing backlogs, ArbOS version | `TypeScript` · `Arbitrum` |
 | [doh-stub](https://github.com/Urthella/doh-stub) | A DNS-over-HTTPS stub for setups that used the removed `cloudflared proxy-dns`: same flags, UDP and TCP in, RFC 8484 out | `Rust` · `DNS` |
 | [pq-hybrid-kex](https://github.com/Urthella/pq-hybrid-kex) | X-Wing, the key exchange that pairs post-quantum ML-KEM-768 with X25519, written step by step and checked against the draft's test vectors | `Rust` · `Cryptography` |
 | [chaos-proxy](https://github.com/Urthella/chaos-proxy) | A TCP proxy that adds latency, jitter, bandwidth limits, dropped and cut connections, and partitions, changeable while it runs | `Rust` · `Testing` |
