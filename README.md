@@ -120,6 +120,8 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [ari-check](https://github.com/Urthella/ari-check) | Asks the CA when to renew: reads a host's TLS certificate or a certificate file and fetches its ACME Renewal Information (RFC 9773) window, with exit codes for cron | `TypeScript` · `TLS` |
+| [nix-oci-images](https://github.com/Urthella/nix-oci-images) | One Go server packaged as an OCI image six ways, Dockerfiles against Nix builders, measured in CI for size, shell, CVEs and rebuild reproducibility | `Nix` · `Docker` · `Go` |
 | [arb-gas-exporter](https://github.com/Urthella/arb-gas-exporter) | A Prometheus exporter for Arbitrum gas prices, read from the chain's own precompiles: L2 base fee, parent-chain data prices, pricing backlogs, ArbOS version | `TypeScript` · `Arbitrum` |
 | [doh-stub](https://github.com/Urthella/doh-stub) | A DNS-over-HTTPS stub for setups that used the removed `cloudflared proxy-dns`: same flags, UDP and TCP in, RFC 8484 out | `Rust` · `DNS` |
 | [pq-hybrid-kex](https://github.com/Urthella/pq-hybrid-kex) | X-Wing, the key exchange that pairs post-quantum ML-KEM-768 with X25519, written step by step and checked against the draft's test vectors | `Rust` · `Cryptography` |
