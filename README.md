@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [sct-check](https://github.com/Urthella/sct-check) | Is this certificate really in Certificate Transparency? Verifies each embedded SCT and proves inclusion under the log's signed head, tiled (static-ct-api) logs included, then applies Chrome's CT policy | `TypeScript` · `TLS` |
 | [ari-check](https://github.com/Urthella/ari-check) | Asks the CA when to renew: reads a host's TLS certificate or a certificate file and fetches its ACME Renewal Information (RFC 9773) window, with exit codes for cron | `TypeScript` · `TLS` |
 | [nix-oci-images](https://github.com/Urthella/nix-oci-images) | One Go server packaged as an OCI image six ways, Dockerfiles against Nix builders, measured in CI for size, shell, CVEs and rebuild reproducibility | `Nix` · `Docker` · `Go` |
 | [arb-gas-exporter](https://github.com/Urthella/arb-gas-exporter) | A Prometheus exporter for Arbitrum gas prices, read from the chain's own precompiles: L2 base fee, parent-chain data prices, pricing backlogs, ArbOS version | `TypeScript` · `Arbitrum` |
