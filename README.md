@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [sol-fee-oracle](https://github.com/Urthella/sol-fee-oracle) | Solana priority fee percentiles for the accounts or programs you care about, from recent blocks on any stock RPC, v1 transactions included, with every fee checked against what the chain charged | `TypeScript` · `Solana` |
 | [sct-check](https://github.com/Urthella/sct-check) | Is this certificate really in Certificate Transparency? Verifies each embedded SCT and proves inclusion under the log's signed head, tiled (static-ct-api) logs included, then applies Chrome's CT policy | `TypeScript` · `TLS` |
 | [ari-check](https://github.com/Urthella/ari-check) | Asks the CA when to renew: reads a host's TLS certificate or a certificate file and fetches its ACME Renewal Information (RFC 9773) window, with exit codes for cron | `TypeScript` · `TLS` |
 | [nix-oci-images](https://github.com/Urthella/nix-oci-images) | One Go server packaged as an OCI image six ways, Dockerfiles against Nix builders, measured in CI for size, shell, CVEs and rebuild reproducibility | `Nix` · `Docker` · `Go` |
