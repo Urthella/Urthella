@@ -120,6 +120,8 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [op-fee-audit](https://github.com/Urthella/op-fee-audit) | Recomputes the L1 data fee of every transaction on Base, OP Mainnet and the rest of the Superchain from its own bytes (FastLZ, Fjord), and checks each receipt agrees | `TypeScript` · `Ethereum` |
+| [blob-fee-audit](https://github.com/Urthella/blob-fee-audit) | Recomputes Ethereum's blob fee block by block, EIP-4844 as EIP-7918 changed it, against the blob schedule the node reports, and shows what the reserve price is doing | `TypeScript` · `Ethereum` |
 | [cargo-trustpub](https://github.com/Urthella/cargo-trustpub) | How was each dependency in Cargo.lock published? Trusted Publishing or a token, flags crates that went back to a token after switching, and checks each publishing run on GitHub | `Rust` · `Supply chain` |
 | [nix-ci-cache](https://github.com/Urthella/nix-ci-cache) | Nix caching on GitHub Actions, measured: no cache, magic-nix-cache, cache-nix-action and Hestia, cold and warm, on the same workload, with step times and cache sizes in every run | `Nix` · `GitHub Actions` |
 | [sol-fee-oracle](https://github.com/Urthella/sol-fee-oracle) | Solana priority fee percentiles for the accounts or programs you care about, from recent blocks on any stock RPC, v1 transactions included, with every fee checked against what the chain charged | `TypeScript` · `Solana` |
