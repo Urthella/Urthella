@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [cargo-trustpub](https://github.com/Urthella/cargo-trustpub) | How was each dependency in Cargo.lock published? Trusted Publishing or a token, flags crates that went back to a token after switching, and checks each publishing run on GitHub | `Rust` · `Supply chain` |
 | [nix-ci-cache](https://github.com/Urthella/nix-ci-cache) | Nix caching on GitHub Actions, measured: no cache, magic-nix-cache, cache-nix-action and Hestia, cold and warm, on the same workload, with step times and cache sizes in every run | `Nix` · `GitHub Actions` |
 | [sol-fee-oracle](https://github.com/Urthella/sol-fee-oracle) | Solana priority fee percentiles for the accounts or programs you care about, from recent blocks on any stock RPC, v1 transactions included, with every fee checked against what the chain charged | `TypeScript` · `Solana` |
 | [sct-check](https://github.com/Urthella/sct-check) | Is this certificate really in Certificate Transparency? Verifies each embedded SCT and proves inclusion under the log's signed head, tiled (static-ct-api) logs included, then applies Chrome's CT policy | `TypeScript` · `TLS` |
