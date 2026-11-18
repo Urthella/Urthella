@@ -120,6 +120,7 @@ Smaller, focused repos across Rust, Go, TypeScript and Nix. Every one has CI, an
 
 | Repo | What it does | Stack |
 |---|---|---|
+| [btc-block-audit](https://github.com/Urthella/btc-block-audit) | Checks Bitcoin blocks from their raw bytes, with no node: proof of work, merkle root, witness commitment, weight, BIP34 height, median time past and every difficulty adjustment's formula | `TypeScript` · `Bitcoin` |
 | [op-fee-audit](https://github.com/Urthella/op-fee-audit) | Recomputes the L1 data fee of every transaction on Base, OP Mainnet and the rest of the Superchain from its own bytes (FastLZ, Fjord), and checks each receipt agrees | `TypeScript` · `Ethereum` |
 | [blob-fee-audit](https://github.com/Urthella/blob-fee-audit) | Recomputes Ethereum's blob fee block by block, EIP-4844 as EIP-7918 changed it, against the blob schedule the node reports, and shows what the reserve price is doing | `TypeScript` · `Ethereum` |
 | [cargo-trustpub](https://github.com/Urthella/cargo-trustpub) | How was each dependency in Cargo.lock published? Trusted Publishing or a token, flags crates that went back to a token after switching, and checks each publishing run on GitHub | `Rust` · `Supply chain` |
